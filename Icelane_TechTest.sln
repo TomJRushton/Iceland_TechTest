@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iceland_TechTest", "Icelane_TechTest\Iceland_TechTest.csproj", "{22AA4A5C-CA3F-446D-80E3-0ED723EAF906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTests", "..\ProjectTests\ProjectTests.csproj", "{9788E126-360E-42FD-9159-3F54C25F9CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22AA4A5C-CA3F-446D-80E3-0ED723EAF906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AA4A5C-CA3F-446D-80E3-0ED723EAF906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AA4A5C-CA3F-446D-80E3-0ED723EAF906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AA4A5C-CA3F-446D-80E3-0ED723EAF906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9788E126-360E-42FD-9159-3F54C25F9CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9788E126-360E-42FD-9159-3F54C25F9CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9788E126-360E-42FD-9159-3F54C25F9CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9788E126-360E-42FD-9159-3F54C25F9CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65B492EF-785E-4B55-B424-84E1F5808A1D}
+	EndGlobalSection
+EndGlobal

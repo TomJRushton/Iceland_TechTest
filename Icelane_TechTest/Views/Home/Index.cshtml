@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Icelane_TechTest.Models.FoodItem
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div class="text-center">
+        <h1 class="display-4">Inventory Manager</h1>
+        <div class="float-left" style="width:500px">
+            <label for="label">Enter Inventory Here:</label>
+            @Html.TextAreaFor(x => x.TextAreaString,
+             new
+             {
+                 @value = "Type Here",
+                 @class = "md-textarea form-control",
+                 rows = "20",
+                 @align = "Left",
+                 @style = "width:500px"
+             }
+        )
+
+        </div>
+        <div class="float-right" style="width:500px">
+            <label for="label2">View Updated Inventory Here:</label>
+            <textarea readonly id="newFoodItems" class="md-textarea form-control" rows="20">
+                @ViewBag.item
+                @ViewBag.item1
+                @ViewBag.item2
+                @ViewBag.item3
+                @ViewBag.item4
+                @ViewBag.item5
+                @ViewBag.item6
+                @ViewBag.item7
+                @ViewBag.item8
+
+        </textarea>
+        </div>
+
+    </div>
+    <div>
+        <input type="submit" value="Update Stock" class="btn btn-outline-info btn-lg btn-block" />
+    </div>
+
+}
